@@ -11,6 +11,7 @@ data = np.loadtxt("yourdata.txt", skiprows=1)
 
 # A table with these parameters (below) must be provided
 # The format MUST be in the sequence: radial velocities (RV), parallaxes, right ascensions (RA), declinations (DEC), RA proper motion and DEC proper motion  
+# Feel free to improve upon that, I was too lazy
 
 rv = data[:,0]
 parallax = data[:,1]
